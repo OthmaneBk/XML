@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE biblio SYSTEM "biblio.dtd"> 
+
+
+<biblio>
+	
+	<document id="101">
+		<title>Technologie XML</title>
+		<title lang="en">XML Technology</title>
+		<authors>
+			<author>
+				<name> Tim Berners-Lee</name>
+				<country>UK</country>
+				<birthday day="8" month="6" year="1955" />
+			</author>
+		</authors>
+		<publisher name="Printice Hall" country="USA" />
+	</document>
+	
+	<document id="102">
+		<title>Technologie Java/Jakarta EE</title>
+		<title lang="en">XML Technology</title>
+		<authors>
+			<author>
+				<name>James Gosling</name>
+				<country>Canada</country>
+				<birthday day="19" month="5" year="1961" />
+			</author>
+			<author>
+				<name>Erich Gamma</name>
+				<country>Suisse</country>
+				<birthday day="13" month="3" year="1961" />
+			</author>
+		</authors>
+		<publisher name="Dunod" country="France" />
+	</document>
+	
+	<document id="103">
+		<title>Tests Unitaires avec JUnit</title>
+		<authors>
+			<author>
+				<name>Erich Gamma</name>
+				<country>Suisse</country>
+				<birthday day="13" month="3" year="1961" />
+			</author>
+		</authors>
+		<publisher name="Elsevier" country="USA" />
+	</document>
+</biblio>

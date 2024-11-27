@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT biblio (document*)>
+<!ELEMENT document (title+,authors,publisher)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT authors (author+)>
+<!ELEMENT author (name, country, birthday)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT birthday EMPTY>
+
+<!ELEMENT publisher EMPTY >
+
+
+
+
+<!ATTLIST document 
+	id CDATA #REQUIRED
+>
+
+<!ATTLIST title 
+	lang (fr | en | ar) #IMPLIED
+>
+
+<!ATTLIST birthday
+	day CDATA #REQUIRED
+	month CDATA #REQUIRED
+	year CDATA #REQUIRED
+>
+
+<!ATTLIST publisher
+	name CDATA #IMPLIED
+	country CDATA #IMPLIED
+>
